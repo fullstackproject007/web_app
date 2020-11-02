@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+body{
+    font-family: 'Acme', sans-serif;
+}
+.height{
+    min-height: 80vh;
+}
+.height-70{
+    min-height: 70vh;
+}
+.height-50{
+    min-height: 50vh;
+}
+.underline{
+    margin: 0 auto;
+    width: 230px;
+    height: 5px;
+}
+.underline-2{
+    margin: 0 auto;
+    width: 400px;
+    height: 5px;
+}
+#signup{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+}
+#update{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+}
+#info{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+}
+#footer{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
+}
