@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--Google fonts if any-->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!--css custom if any-->
+    <link rel="stylesheet" href="adminsheet.css">
+    <title>Admin Module</title>
+</head>
+
+<body>
+    <!--navbar -->
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark" id="top">
+        <a href="#top" class="navbar-brand text-uppercase text-light font-italic"><strong>Student Nation</strong><small><span class="text-dark">___</span>Admin Module</small></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarLinks">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+            <ul class="navbar-nav ">
+                <li class="nav-item"><a class="nav-link active text-light" href="#aboutus">About Us</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#update">Update</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#info">View Info</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#footer">Footer</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#signup">Add HOD</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#logout">Log Out</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <!-- end of navbar -->
+    <!-- About us -->
+    <section id="aboutus" class="bg-light py-3">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-secondary display-4 text-center text-capitalize">about us</h2>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row mt-4 height d-flex justify-content-start">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card w-50 mx-auto">
+                        <img src="stark.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">ADMIN</h5>
+                            <p class="card-text">Acting as the current Admin of Student Nation Corp. -Tony Stark</p>
+                            <a href="#" class="btn btn-outline-primary btn-block">Button</a>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequuntur optio
+                        porro ab. Placeat aut quaerat beatae animi, accusantium deserunt consequuntur. Cum velit
+                        nesciunt illum consequatur harum itaque tempora ad repellat quasi minus perferendis minima
+                        laborum maxime earum ut magnam fuga unde, ea veritatis voluptas beatae autem voluptate mollitia
+                        recusandae?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- Sign up form -->
+    <section id="signup" class="bg-dark py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-3 text-center text-light">
+                        <strong class="text-capitalize font-bold ">Sign up</strong>
+                    </h1>
+                    <div class="underline my-1 bg-light"></div>
+                    <p class="text-light text-capitalize my-2 text-center">Admin can Sign Up a new user such as HOD.</p>
+                </div>
+            </div>
+            <!-- form start -->
+            <div class="row height-70 d-flex justify-content-center mt-4 py-2">
+                <div class="col-lg-6 col-md-8">
+                    <div class="card-body bg-secondary py-2 mb-4">
+                        <div class="card-title mt-3">
+                            <h4 class="text-center text-capitalize text-light font-italic">new HOD sign up!</h4>
+                        </div>
+                        <form>
+                            <div class="form-group mt-4">
+                                <input type="text" placeholder="Name" class="form-control">
+                            </div>
+                            <div class="form-group mt-4">
+                                <input type="text" placeholder="Hod Id" class="form-control">
+                            </div>
+
+                            <div class="input-group mt-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Year and Semester</span>
+                                </div>
+                                <input type="text" aria-label="Year" placeholder="Year" class="form-control">
+                                <input type="text" aria-label="Semester" placeholder="Semester" class="form-control">
+                            </div>
+                            <div class="input-group mt-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Branch</span>
+                                </div>
+                                <input type="text" aria-label="Phone No." class="form-control"
+                                    placeholder="Enter Branch">
+                            </div>
+                            <div class="input-group mt-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Phone No.</span>
+                                </div>
+                                <input type="number" aria-label="Phone No." class="form-control" placeholder="Ph No.">
+                            </div>
+                            <div class="input-group mt-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Email</span>
+                                </div>
+                                <input type="email" aria-label="Phone No." class="form-control" placeholder="email">
+                            </div>
+                            <div class="input-group mt-4 mb-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Password</span>
+                                </div>
+                                <input type="password" aria-label="Phone No." class="form-control"
+                                    placeholder="Password">
+                            </div>
+                            <div class="input-group mt-4 mb-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"> Confirm Password</span>
+                                </div>
+                                <input type="password" aria-label="Phone No." class="form-control"
+                                    placeholder="Confirm Password">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of sign up -->
+
+    <!-- update Password -->
+    <section id="update" class="py-3 bg-light">
+        <div class="container">
+            <!-- title -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-3 text-center text-dark">
+                        <strong class="text-capitalize font-bold ">update password</strong>
+                    </h1>
+                    <div class="underline-2 my-1 bg-dark"></div>
+                    <p class="text-dark text-capitalize my-2 text-center">Admin can update password of self and HOD.</p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row mt-4 height-70 d-flex align-items-center">
+                <div class="col-md-6">
+                    <h4 class="font-bold font-italic text-capitalize"><strong>
+                            <li>hod password update</li>
+                        </strong></h4>
+                    <form action="" class="mt-3">
+                        <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span>Hod Id</span></div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Type Hod Id">
+                        </div>
+                        <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span>Old P@ssword</span></div>
+                            </div>
+                            <input type="password" class="form-control" placeholder="Type old P@ssword">
+                        </div>
+                        <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span>New P@ssword</span></div>
+                            </div>
+                            <input type="password" class="form-control" placeholder="Type New P@ssword">
+                        </div>
+                        <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span>Re-Enter P@ssword</span></div>
+                            </div>
+                            <input type="password" class="form-control" placeholder="Re-Enetr P@ssword">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-6 py-3">
+                    <h4 class="font-bold font-italic text-capitalize"><strong>
+                            <li>admin password update</li>
+                        </strong></h4>
+                    <form action="" class="mt-3">
+                        <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span>Old P@ssword</span></div>
+                            </div>
+                            <input type="password" class="form-control" placeholder="Type old P@ssword">
+                        </div>
+                        <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span>New P@ssword</span></div>
+                            </div>
+                            <input type="password" class="form-control" placeholder="Type New P@ssword">
+                        </div>
+                        <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span>Re-Enter P@ssword</span></div>
+                            </div>
+                            <input type="password" class="form-control" placeholder="Re-Enetr P@ssword">
+                        </div>
+                        <button class="btn btn-block btn-primary mt-4" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of update password -->
+
+    <!-- view info -->
+    <section id="info" class="bg-dark py-3">
+        <div class="container">
+            <!-- title -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-3 text-center text-light">
+                        <strong class="text-capitalize font-bold ">View Information</strong>
+                    </h1>
+                    <div class="underline-2 my-1 bg-light"></div>
+                    <p class="text-light text-capitalize my-2 text-center">Admin can view marks of students, list hod's
+                        and faculties'.</p>
+                    <br>
+                    <p class="text-light text-capitalize my-1 text-center">links will generate dynamic web pages :)</p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row height-70 mt-3 py-2 d-flex justify-content-center">
+                <div class="col-md-8 align-self-center">
+                    <table class="table table-striped text-light">
+                        <tr>
+                            <td>Contents</td>
+                            <td>Links</td>
+                        </tr>
+                        <tr>
+                            <td>View Hod List</td>
+                            <td><a href="#info" class="text-light font-italic">Click Here</a></td>
+                        </tr>
+                        <tr>
+                            <td>View Faculty List</td>
+                            <td><a href="#info" class="text-light font-italic">Click Here</a></td>
+                        </tr>
+                        <tr>
+                            <td>View Marks of Students</td>
+                            <td><a href="#info" class="text-light font-italic">Click Here</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of view info -->
+
+    <!-- Footer -->
+    <section id="footer" class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-dark">
+                    <h5>@Footer</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <h5 class="text-dark font-italic text-capitalize">@2020 student nation admin module. all rights
+                        reserved. -student nation corp.</h5>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-6">
+                    <div class="d-flex justify-content-around">
+                        <a href="#"><i class="fab fa-facebook fa-2x text-primary"></i></a>
+                        <a href="#"><i class="fab fa-google fa-2x text-danger"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x text-info"></i></a>
+                        <a href="#"><i class="fab fa-yahoo fa-2x text-success"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
